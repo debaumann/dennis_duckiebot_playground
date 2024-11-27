@@ -5,7 +5,7 @@ import numpy as np
 from sensor_msgs.msg import CompressedImage
 from cv_bridge import CvBridge
 from duckietown_msgs.msg import WheelsCmdStamped
-
+#/code/catkin_ws
 class YellowBlobFever:
     def __init__(self):
         self.bridge = CvBridge()
